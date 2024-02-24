@@ -1,0 +1,129 @@
+/* MODIFICAÇÕES GERAIS */
+div{
+    margin: 20px auto;
+    text-align: center;
+    width: 800px;
+    border-radius: 15px;
+    
+}
+body{
+    background-color: #f4eee5;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+}
+
+/* FIM MODIFICAÇÕES GERAIS */
+
+
+
+
+
+/* MODIFICAÇÕES ESPECIFICAS */
+.primeira img{
+    width: 200px;
+}
+.primeira a{
+    color: #542f0c;
+    margin: 0 10px;
+    font-size: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.primeira a:hover{
+    color: #dd8d36;
+    transform: scale(1.2);
+}
+.segunda{
+    border-top: 2px solid #542f0c;
+    margin-top: 40px;
+    border-radius: 0;
+}
+.segunda img{
+    width: 800px;
+    border-radius: 15px;
+    border: 2px dashed #542f0c;
+    padding: 2px;
+}
+.segunda h1{
+    padding-top: 10px;
+    font-size: 40px;
+}
+.segunda h2{
+    color: #dd8d36;
+    font-size: 30px;
+}
+.terceira{
+    background-color: #dd8d36;
+    color: white
+}
+.terceira img{
+    width: 500px;
+    border-radius: 5px;
+    border-left: 2px solid #f4eee5;
+    border-bottom: 1px solid #f4eee5;
+}
+.terceira .bolos{
+    margin-bottom: 40px;
+}
+.terceira h3{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.terceira h4{
+    font-size: 25px;
+}
+.terceira p{
+    font-size: 20px;
+    width: 600px;
+    margin: 20px auto;
+}
+.quarta h3{
+    font-size: 28px;
+}
+.quarta p{
+    font-size: 20px;
+}
+.quarta span{
+    font-weight: bold;
+}
+.quarta a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    transition: .2s;
+}
+.quarta a:hover{
+    color: red;
+}
+.quarta .maps{
+    border: 2px solid #542f0c;
+    border-radius: 15px;
+    transition: .5s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.quarta .maps:hover{
+    transform: scale(1.2);
+}
+footer{
+    font-size: 12px;
+    opacity: .5;
+    text-align: center;
+    margin: 20px auto;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+#bgimg {
+    position: fixed;
+    opacity: 0.3;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 500px;
+    z-index: -1;
+}
+
+/* FIM MODIFICAÇÕES ESPECIFICAS */

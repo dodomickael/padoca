@@ -1,0 +1,20 @@
+div{
+   margin: 20px auto;
+   border: 2px solid rgb(119, 119, 119);
+   width: 800px;
+   padding: 20px;
+   line-height: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+h3{
+    font-size: 25px;
+}
+span{
+    font-weight: bold;
+    line-height: 50px;
+}
+
